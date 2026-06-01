@@ -1,0 +1,88 @@
+.footer-section {
+  background-color: #ffffff;
+  padding: 60px 80px 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.footer-top {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  padding-bottom: 40px;
+}
+
+.footer-brand {
+  width: 28%;
+  flex-shrink: 0;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.footer-logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.footer-logo-text {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.footer-brand-desc {
+  font-size: 0.85rem;
+  color: #666666;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.footer-col {
+  flex: 1;
+}
+
+.footer-col-title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0 0 20px 0;
+}
+
+.footer-col-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-col-list li {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666666;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footer-col-list li:hover {
+  color: #4f46e5;
+}
+
+.footer-bottom {
+  border-top: 1px solid #e5e7eb;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #888888;
+  margin: 0;
+}
