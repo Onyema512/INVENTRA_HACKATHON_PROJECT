@@ -5,6 +5,7 @@ import Hero from '../../Components/Hero'
 import Features from '../../Components/Features'
 import Manage from '../../Components/Manage'
 import Inventra from '../../Components/Inventra'
+import Welcome from '../../Components/Welcome'
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <Features/>
       <Manage/>
       <Inventra/>
+      <Welcome/>
     </div>
   )
 }

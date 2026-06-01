@@ -1,12 +1,15 @@
 import React from "react";
 import "../Css/Header.css";
 import { NavLink } from "react-router-dom";
+import logo from '../assets/Inventra Logo.png'
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header-logo">
-        <div className="logo-icon"></div>
+        <img src={logo} 
+        className="logo-icon"
+        alt="" />
         <h2>Inventra</h2>
       </div>
 

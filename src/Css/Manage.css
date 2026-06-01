@@ -26,7 +26,8 @@
 }
 
 .manage-heading span {
-  color: #6d5dfc;
+  color: #4f46e5;
+  font-weight: 700;
 }
 
 .manage-orange {
@@ -96,7 +97,7 @@
 }
 
 .right-fade {
-  opacity: 0.45;
+  opacity: 0;
   transform: scale(0.98);
 }
 

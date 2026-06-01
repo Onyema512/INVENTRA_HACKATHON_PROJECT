@@ -1,6 +1,8 @@
 import React from "react";
 import "../Css/Hero.css";
 import {Rocket, Play, CheckCircle,} from "lucide-react";
+import dashboard from '../assets/Inventra Dashboard.png'
+
 
 const Hero = () => {
   return (
@@ -33,24 +35,24 @@ const Hero = () => {
 
         <div className="hero-features">
            <div className="feature-item">
-              <CheckCircle size={18} />
+              <CheckCircle size={20} />
               <span>Real-time Tracking</span>
            </div>
            <div className="feature-item">
-              <CheckCircle size={18} />
+              <CheckCircle size={20} />
               <span>Reduce Losses</span>
            </div>
            <div className="feature-item">
-              <CheckCircle size={18} />
+              <CheckCircle size={20} />
               <span>Improve Efficiency</span>
            </div>
         </div>
       </div>
 
       <div className="hero-right">
-        <div className="dashboard-placeholder">
-          Dashboard Image Here
-        </div>
+        <img src={dashboard} 
+        className="dashboard-placeholder"
+        alt="" />
       </div>
 
     </section>
