@@ -1,0 +1,41 @@
+.freq-section {
+  background-color: #0f172a;
+  padding: 50px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.freq-left {
+  width: 50%;
+}
+
+.freq-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.4;
+  margin: 0 0 14px 0;
+}
+
+.freq-desc {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  line-height: 1.7;
+  margin: 0;
+  font-weight: 600;
+}
+
+.freq-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  height: 160px;
+  width: 280px;
+}
+
+.freq-img {
+  width: 200px;
+  object-fit: contain;
+}
