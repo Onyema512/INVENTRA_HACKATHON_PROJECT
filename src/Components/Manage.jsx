@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../Css/Manage.css";
 
-import Img1 from "../assets/Manage1.jpg";
-import Img2 from "../assets/Manage2.jpg";
+import Img1 from "../assets/Ellipse 9.png";
+import Img2 from "../assets/Ellipse 8.png";
 import Img3 from "../assets/Manage3.jpg";
 import Img4 from "../assets/Manage4.jpg";
 

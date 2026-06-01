@@ -1,5 +1,9 @@
 import React from 'react'
 import '../Css/Inventra.css'
+import supermarket from '../assets/Supermarket1.jpg'
+import warehouse from '../assets/Warehouse.jpg'
+import pharmacy from '../assets/Pharmacy.jpg'
+import retail from '../assets/Retail.jpg'
 
 const Inventra = () => {
   return (
@@ -13,7 +17,7 @@ const Inventra = () => {
       <div className="inventra-grid">
         <div className="inventra-card">
           <img
-            src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80"
+            src={supermarket}
             alt="Supermarkets"
             className="inventra-card-img"
           />
@@ -26,7 +30,7 @@ const Inventra = () => {
 
         <div className="inventra-card">
           <img
-            src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&q=80"
+            src={warehouse}
             alt="Warehouses"
             className="inventra-card-img"
           />
@@ -39,7 +43,7 @@ const Inventra = () => {
 
         <div className="inventra-card">
           <img
-            src="https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80"
+            src={pharmacy}
             alt="Pharmacies"
             className="inventra-card-img"
           />
@@ -52,7 +56,7 @@ const Inventra = () => {
 
         <div className="inventra-card">
           <img
-            src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=800&q=80"
+            src={retail}
             alt="Retail Stores"
             className="inventra-card-img"
           />
