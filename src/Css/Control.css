@@ -43,6 +43,10 @@
   cursor: pointer;
 }
 
+.control-btn-mobile {
+  display: none;
+}
+
 .control-right {
   width: 45%;
   display: flex;
@@ -56,4 +60,83 @@
   max-width: 480px;
   object-fit: contain;
   object-position: bottom;
+}
+
+@media (max-width: 768px) {
+  .control-section {
+    padding: 50px 24px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    min-height: auto;
+  }
+
+  .control-left {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  .control-title {
+    font-size: 1.85rem;
+    margin-bottom: 16px;
+    max-width: 480px; 
+  }
+
+  .control-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    max-width: 100%;
+  }
+
+  .control-btn-desktop {
+    display: none !important;
+  }
+
+  .control-btn-mobile {
+    display: block;
+    align-self: flex-start;
+  }
+
+  .control-right {
+    width: 100%;
+    margin-top: 0;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+  }
+
+  .control-img {
+    max-width: 380px;
+    display: block;
+  }
+}
+
+@media (max-width: 468px) {
+  .control-section {
+    padding: 40px 16px 28px;
+  }
+
+  .control-title {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    max-width: 420px;
+  }
+
+  .control-desc {
+    font-size: 0.75rem;
+    line-height: 1.7;
+  }
+
+  .control-btn-mobile {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    border-radius: 12px;
+  }
+
+  .control-img {
+    max-width: 100%;
+  }
 }

@@ -14,12 +14,15 @@ const Control = () => {
           Simplify supermarket operation with real-time inventory tracking, smart expiry
           alerts, and seamless sales management- all in one platform.
         </p>
-        <button className="control-btn">See our Pricing</button>
+
+        <button className="control-btn control-btn-desktop">See our Pricing</button>
       </div>
 
       <div className="control-right">
         <img src={controlImage} alt="Control" className="control-img" />
       </div>
+
+      <button className="control-btn control-btn-mobile">See our Pricing</button>
 
     </div>
   )
