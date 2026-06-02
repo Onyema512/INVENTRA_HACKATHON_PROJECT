@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "../Css/Header.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import logo from '../assets/Inventra Logo.png'
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
+  const nav = useNavigate();
 
   return (
     <header className="header">
@@ -23,7 +24,7 @@ const Header = () => {
 
       <div className="header-actions">
         <button className="login-btn">Login</button>
-        <button className="start-btn">Get Started</button>
+        <button className="start-btn" onClick={() => nav("/signup")}>Get Started</button>
       </div>
 
       <div className="header-hamburger" onClick={() => setMenuOpen(!menuOpen)}>
@@ -41,7 +42,7 @@ const Header = () => {
           <NavLink to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</NavLink>
           <div className="mobile-menu-actions">
             <button className="login-btn">Login</button>
-            <button className="start-btn">Get Started</button>
+            <button className="start-btn" onClick={() => nav("/signup")}>Get Started</button>
           </div>
         </div>
       )}
