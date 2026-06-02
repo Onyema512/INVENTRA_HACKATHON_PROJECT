@@ -13,7 +13,7 @@ const Manage = () => {
     <section className="manage-section">
       <div className="manage-left">
         <h1 className="manage-heading">
-          Manage your <br /> Inventory <span>faster</span>
+          Manage your Inventory <span>faster</span>
         </h1>
         <div className="manage-orange"></div>
       </div>

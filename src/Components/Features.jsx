@@ -14,9 +14,7 @@ const Features = () => {
     <section id="features" className="features">
       <div className="features-header">
         <span className="features-badge">Features</span>
-
         <h2>Everything you need to run your store</h2>
-
         <p>
           Inventra is built to help you take control of your inventory,
           reduce waste, and grow your business.
@@ -31,7 +29,6 @@ const Features = () => {
           </div>
 
           <h3>Real-time Inventory</h3>
-
           <p>
             Track stock levels in real time across all categories
             and locations.
