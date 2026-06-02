@@ -61,3 +61,68 @@
   border-radius: 28px;
   /* box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2); */
 }
+
+@media (max-width: 768px) {
+  .welcome-section {
+    padding: 40px 24px;
+  }
+
+  .welcome-title-black,
+  .welcome-title-blue {
+    font-size: 1.4rem;
+  }
+
+  .welcome-title-black {
+    max-width: 350px;
+  }
+
+  .welcome-devices {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 12px;
+  }
+
+  .welcome-laptop {
+    width: 65%;
+  }
+
+  .welcome-laptop-img {
+    height: auto;
+  }
+
+  .welcome-phone {
+    width: 30%;
+  }
+
+  .welcome-phone-img {
+    height: auto;
+  }
+}
+
+@media (max-width: 468px) {
+  .welcome-section {
+    padding: 32px 16px;
+  }
+
+  .welcome-title-black,
+  .welcome-title-blue {
+    font-size: 0.9rem;
+  }
+
+  .welcome-title-black {
+    max-width: 450px;
+  }
+
+  .welcome-devices {
+    gap: 8px;
+  }
+
+  .welcome-laptop {
+    width: 68%;
+  }
+
+  .welcome-phone {
+    width: 32%;
+  }
+}
