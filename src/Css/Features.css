@@ -101,3 +101,94 @@
     background:#e5e7eb;
     color:#374151;
 }
+
+@media (max-width: 768px) {
+  .features {
+    padding: 60px 20px;
+  }
+
+  .features-header h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .features-header p {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 300px;
+  }
+
+  .features-badge {
+    font-size: 0.875rem;
+    padding: 8px 20px;
+  }
+
+  .features-grid {
+    margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .feature-card {
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .feature-card h3 {
+    font-size: 1rem;
+    margin-top: 16px;
+  }
+
+  .feature-card p {
+    font-size: 0.875rem;
+    margin-top: 10px;
+  }
+
+  .icon-box {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 468px) {
+  .features {
+    padding: 40px 16px;
+  }
+
+  .features-header h2 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .features-header p {
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 260px
+  }
+
+  .features-grid {
+    margin-top: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .feature-card {
+    padding: 16px;
+  }
+
+  .feature-card h3 {
+    font-size: 0.95rem;
+    margin-top: 12px;
+  }
+
+  .feature-card p {
+    font-size: 0.8rem;
+    margin-top: 8px;
+  }
+
+  .icon-box {
+    width: 40px;
+    height: 40px;
+  }
+}

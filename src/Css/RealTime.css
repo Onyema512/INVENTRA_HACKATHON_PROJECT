@@ -36,3 +36,49 @@
   line-height: 1.7;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .realtime-section {
+    padding: 50px 24px;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .realtime-image {
+    width: 100%;
+  }
+
+  .realtime-img {
+    height: 300px;
+  }
+
+  .realtime-text {
+    width: 100%;
+  }
+
+  .realtime-title {
+    font-size: 1.65rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .realtime-section {
+    padding: 40px 16px;
+    gap: 24px;
+  }
+
+  .realtime-img {
+    height: 220px;
+  }
+
+  .realtime-title {
+    font-size: 1.35rem;
+    text-align: left;
+  }
+
+  .realtime-desc {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+}
