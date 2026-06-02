@@ -75,3 +75,62 @@
   line-height: 1.6;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .inventra-section {
+    padding: 60px 24px; 
+  }
+
+  .inventra-title {
+    font-size: 32px; 
+  }
+
+  .inventra-subtitle {
+    font-size: 1rem;
+    margin-bottom: 36px;
+  }
+
+  .inventra-grid {
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+  }
+
+  .inventra-card {
+    height: 240px; 
+  }
+}
+
+@media (max-width: 468px) {
+  .inventra-section {
+    padding: 48px 16px;
+  }
+
+  .inventra-title {
+    font-size: 26px; 
+  }
+
+  .inventra-card {
+    height: 210px; 
+    border-radius: 8px; 
+  }
+
+  .inventra-subtitle{
+    line-height: 1.6;
+  }
+
+  .inventra-card-text {
+    padding: 16px;
+  }
+
+  .inventra-card-text h3 {
+    font-size: 1.25rem; 
+    margin-bottom: 4px;
+  }
+
+  .inventra-card-text p {
+    font-size: 0.8rem; 
+    line-height: 1.4;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+}
