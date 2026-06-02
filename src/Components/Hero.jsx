@@ -1,8 +1,7 @@
 import React from "react";
 import "../Css/Hero.css";
-import {Rocket, Play, CheckCircle,} from "lucide-react";
+import { Rocket, Play, CheckCircle } from "lucide-react";
 import dashboard from '../assets/Inventra Dashboard.png'
-
 
 const Hero = () => {
   return (
@@ -19,7 +18,7 @@ const Hero = () => {
         <p>
           Inventra helps supermarkets track inventory in real time,
           manage sales, reduce expiry losses, and improve staff
-          accountability <br/> all in one powerful platform.
+          accountability all in one powerful platform.
         </p>
 
         <div className="hero-buttons">
@@ -33,26 +32,28 @@ const Hero = () => {
           </button>
         </div>
 
+        <div className="hero-right hero-right-mobile">
+          <img src={dashboard} className="dashboard-placeholder" alt="" />
+        </div>
+
         <div className="hero-features">
-           <div className="feature-item">
-              <CheckCircle size={20} />
-              <span>Real-time Tracking</span>
-           </div>
-           <div className="feature-item">
-              <CheckCircle size={20} />
-              <span>Reduce Losses</span>
-           </div>
-           <div className="feature-item">
-              <CheckCircle size={20} />
-              <span>Improve Efficiency</span>
-           </div>
+          <div className="feature-item">
+            <CheckCircle size={20} />
+            <span>Real-time Tracking</span>
+          </div>
+          <div className="feature-item">
+            <CheckCircle size={20} />
+            <span>Reduce Losses</span>
+          </div>
+          <div className="feature-item">
+            <CheckCircle size={20} />
+            <span>Improve Efficiency</span>
+          </div>
         </div>
       </div>
 
-      <div className="hero-right">
-        <img src={dashboard} 
-        className="dashboard-placeholder"
-        alt="" />
+      <div className="hero-right hero-right-desktop">
+        <img src={dashboard} className="dashboard-placeholder" alt="" />
       </div>
 
     </section>
